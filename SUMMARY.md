@@ -4,10 +4,7 @@
 
 ## 🕹️ Writeup CTF's
 
-* [⌨️ HackTheBox](writeup-ctfs/hackthebox/README.md)
-  * [Vision](writeup-ctfs/hackthebox/vision.md)
-  * [Mission](writeup-ctfs/hackthebox/mission.md)
-  * [Focus](writeup-ctfs/hackthebox/focus.md)
+* [⌨️ HackTheBox](writeup-ctfs/hackthebox.md)
 * [⌨️ PortSwigger](writeup-ctfs/portswigger/README.md)
   * [Vision](writeup-ctfs/portswigger/vision.md)
   * [Mission](writeup-ctfs/portswigger/mission.md)
