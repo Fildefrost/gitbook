@@ -2,7 +2,7 @@ import os
 import re
 
 # Configuración
-markdown_folder = "C:\\Users\\jpueyo\\Documents\\Github\\gitbook\\writeup-ctfs\\tryhackme"  # Carpeta donde están los .md
+markdown_folder = "C:\\Users\\jpueyo\\Documents\\Github\\gitbook\\writeup-ctfs\\DockerLabs"  # Carpeta donde están los .md
 
 # Expresión regular para encontrar enlaces de imágenes en Markdown
 image_pattern = re.compile(r'!\[(.*?)\]\((imagenes/[^\)]+)\)')
