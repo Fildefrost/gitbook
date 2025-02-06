@@ -1,6 +1,6 @@
 ---
 cover: 
-<figure><img src="../../.gitbook/assets/escac.jpg" alt=""><figcaption></figcaption></figure>  
+
 coverY: 0
 ---
 
