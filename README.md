@@ -1,10 +1,13 @@
 ---
 cover: >-
-  https://images.unsplash.com/photo-1528605248644-14dd04022da1?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxMHx8dGVhbSUyMG9mJTIwcGVvcGxlfGVufDB8fHx8MTY2MDMxNzQzNg&ixlib=rb-1.2.1&q=80
+<figure><img src="../../.gitbook/assets/escac.jpg" alt=""><figcaption></figcaption></figure>  
 coverY: 0
 ---
 
 # 👋 Bienvenido a mi sitio
+
+Por ahora este sitio se utiliza para subir las resoluciones de diferentes retos y maquinas vulnerables de distintas plataformas
+
 
 ## 💻root#:&#x20;
 
