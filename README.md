@@ -1,8 +1,3 @@
----
-cover: 
-
-coverY: 0
----
 
 # 👋 Bienvenido a mi sitio
 
