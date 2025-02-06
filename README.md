@@ -16,17 +16,18 @@ Aqui va descripcion
 
 info
 
-### 🌍 Contacto
+### 📭 Contacto
 
 links
 
+
+### 📌Otros
 <details>
 
 <summary>CV</summary>
 
-Otros
-
 </details>
+
 
 
 
