@@ -10,7 +10,7 @@ Aqui va mi descripción
 
 ### 👔Objetivo profesional
 
-Aqui va descripcion
+- 🔹 Certificaciones en proceso: eJPTv2 y OSCP.
 
 ### 🤝 Informacion de sitio
 
@@ -22,11 +22,6 @@ links
 
 
 ### 📌Otros
-<details>
-
-<summary>CV</summary>
-
-</details>
 
 
 
