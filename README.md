@@ -10,7 +10,7 @@ Aqui va mi descripción
 
 ### 👔Objetivo profesional
 
-Aqui va descripcion
+- 🔹 Certificaciones en proceso: eJPTv2 y OSCP.
 
 ### 🤝 Informacion de sitio
 
@@ -18,15 +18,19 @@ info
 
 ### 📭 Contacto
 
-links
+Mail:
+[duk3_@hotmail.com](mailto:duk3_@hotmail.com)
+
+Linkedin: 
+[Jordi Pueyo](www.linkedin.com/in/jordi-pueyo-cyber)
+
+
+Github:
+[Fildefrost](https://github.com/Fildefrost)
+
 
 
 ### 📌Otros
-<details>
-
-<summary>CV</summary>
-
-</details>
 
 
 
