@@ -59,6 +59,7 @@
     * [Steel Mountain](<writeup-ctfs/tryhackme/Steel Mountain.md>)
 * [📚 Apuntes](apuntes/README.md)
   * [Curso Python](<apuntes/Curso Python/Python Course.md>)
+  * [Cheatsheets](<apuntes/Curso Python/CheatSheet/README.md>)
 * [🛠️ Utils](utils/README.md)
   * [🐍 Python](utils/python/README.md)
 
