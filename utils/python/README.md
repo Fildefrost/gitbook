@@ -1,5 +1,6 @@
 # Python
 Archivos y scripts de Python
 
-{% code src="python/fix.py" %}
-{% code src="python/summary.py" %}
+Puedes ver los scripts aquí: 
+Notion_Fix(https://github.com/Fildefrost/gitbook/blob/main/utils/python/fix.py)
+Summay Update (https://github.com/Fildefrost/gitbook/blob/main/utils/python/summarry.py)
