@@ -2,9 +2,9 @@
 
 Mail:
 
-duk3\_@hotmail.com
+[duk3_@hotmail.com](mailto:duk3_@hotmail.com)
 
-Linkedin:
+Linkedin: 
 
-www.linkedin.com/in/jordi-pueyo-cyber
+[Jordi Pueyo](www.linkedin.com/in/jordi-pueyo-cyber)
 
