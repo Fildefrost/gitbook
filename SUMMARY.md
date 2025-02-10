@@ -60,5 +60,5 @@
 * [📚 Apuntes](apuntes/README.md)
 * [🛠️ Utils](utils/README.md)
   * [🐍 Python](utils/python/README.md)
-* [📬 Contacto](contacto/README.md)
+
   
