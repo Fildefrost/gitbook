@@ -58,6 +58,7 @@
     * [Simple CTF](<writeup-ctfs/tryhackme/Simple CTF .md>)
     * [Steel Mountain](<writeup-ctfs/tryhackme/Steel Mountain.md>)
 * [📚 Apuntes](apuntes/README.md)
+    *[Curso Python](<apuntes/Curso Python/Python Course.md>)
 * [🛠️ Utils](utils/README.md)
   * [🐍 Python](utils/python/README.md)
 
