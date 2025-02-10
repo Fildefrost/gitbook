@@ -18,7 +18,16 @@ info
 
 ### 📭 Contacto
 
-links
+Mail:
+[duk3_@hotmail.com](mailto:duk3_@hotmail.com)
+
+Linkedin: 
+[Jordi Pueyo](www.linkedin.com/in/jordi-pueyo-cyber)
+
+
+Github:
+[Fildefrost](https://github.com/Fildefrost)
+
 
 
 ### 📌Otros
