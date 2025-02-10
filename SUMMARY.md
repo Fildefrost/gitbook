@@ -19,7 +19,6 @@
   * [⌨️ PortSwigger](writeup-ctfs/portswigger/README.md)
     * [Focus](writeup-ctfs/portswigger/focus.md)
     * [Mission](writeup-ctfs/portswigger/mission.md)
-    * [Vision](writeup-ctfs/portswigger/vision.md)
   * [⌨️ TryHackMe](writeup-ctfs/tryhackme/README.md)
     * [Basic Pentesting 15d360cb06dd8025b6dfe88283d34fcc](<writeup-ctfs/tryhackme/Basic Pentesting.md>)
     * [Capstone (Privesc)](<writeup-ctfs/tryhackme/Capstone (Privesc) .md>)
