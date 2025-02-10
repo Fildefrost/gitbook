@@ -1,7 +1,12 @@
 # Summary
 
-<<<<<<< HEAD
+
+## Contacto
+
 - [Requesting Time Off](contacto\requesting-time-off.md)
+
+## Writeup-Ctfs\Dockerlabs
+
 - [Agua De Mayo](writeup-ctfs\DockerLabs\Agua de Mayo.md)
 - [Amor](writeup-ctfs\DockerLabs\Amor.md)
 - [Chocolate](writeup-ctfs\DockerLabs\Chocolate.md)
@@ -13,6 +18,9 @@
 - [Upload](writeup-ctfs\DockerLabs\Upload.md)
 - [Walking Cms](writeup-ctfs\DockerLabs\Walking CMS.md)
 - [Whereismyshell](writeup-ctfs\DockerLabs\WhereIsMyShell.md)
+
+## Writeup-Ctfs\Hackthebox
+
 - [Archetype](writeup-ctfs\HackTheBox\Archetype.md)
 - [Base](writeup-ctfs\HackTheBox\Base.md)
 - [Bike](writeup-ctfs\HackTheBox\Bike.md)
@@ -42,8 +50,14 @@
 - [Unified](writeup-ctfs\HackTheBox\Unified.md)
 - [Vaccine](writeup-ctfs\HackTheBox\Vaccine.md)
 - [Validation](writeup-ctfs\HackTheBox\Validation.md)
+
+## Writeup-Ctfs\Overthewire
+
 - [Bandit](writeup-ctfs\overthewire\bandit.md)
 - [Natas](writeup-ctfs\overthewire\natas.md)
+
+## Writeup-Ctfs\Tryhackme
+
 - [Basic Pentesting](writeup-ctfs\Tryhackme\Basic Pentesting.md)
 - [Capstone (Privesc) ](writeup-ctfs\Tryhackme\Capstone (Privesc) .md)
 - [Coldbox](writeup-ctfs\Tryhackme\ColdBox.md)
@@ -52,33 +66,3 @@
 - [Root Me](writeup-ctfs\Tryhackme\Root Me.md)
 - [Simple Ctf ](writeup-ctfs\Tryhackme\Simple CTF .md)
 - [Steel Mountain](writeup-ctfs\Tryhackme\Steel Mountain.md)
-=======
-* [👋 Bienvenido a mi sitio](README.md)
-* [apuntes](apuntes/README.md)
-  * [👋 Documentacion](apuntes/documentacion.md)
-  * [🤝 How we Work Together](apuntes/how-we-work-together.md)
-  * [📅 Meetings](apuntes/meetings.md)
-  * [🚀 Vision, Mission & Focus](apuntes/vision-mission-and-focus/README.md)
-    * [Focus](apuntes/vision-mission-and-focus/focus.md)
-    * [Mission](apuntes/vision-mission-and-focus/mission.md)
-    * [Vision](apuntes/vision-mission-and-focus/vision.md)
-* [contacto](contacto/README.md)
-  * [🌴 Requesting Time Off](contacto/requesting-time-off.md)
-* [🕹️ writeup-ctfs](writeup-ctfs/README.md)
-  * [⌨️ HackTheBox](writeup-ctfs/HackTheBox/README.md)
-  * [⌨️ OverTheWire](writeup-ctfs/overthewire/README.md)
-    * [⚡ Bandit](writeup-ctfs/overthewire/bandit.md)
-    * [⚡ Natas](writeup-ctfs/overthewire/natas.md)
-  * [⌨️ PortSwigger](writeup-ctfs/portswigger/README.md)
-    * [Focus](writeup-ctfs/portswigger/focus.md)
-    * [Mission](writeup-ctfs/portswigger/mission.md)
-  * [⌨️ TryHackMe](writeup-ctfs/tryhackme/README.md)
-    * [Basic Pentesting 15d360cb06dd8025b6dfe88283d34fcc](<writeup-ctfs/tryhackme/Basic Pentesting.md>)
-    * [Capstone (Privesc)](<writeup-ctfs/tryhackme/Capstone (Privesc) .md>)
-    * [ColdBox](writeup-ctfs/tryhackme/ColdBox.md)
-    * [FownSniff](writeup-ctfs/tryhackme/FownSniff.md)
-    * [Pickle Rick 15d360cb06dd80bc8f39cc287d3ad792](<writeup-ctfs/tryhackme/Pickle Rick .md>)
-    * [Root Me](<writeup-ctfs/tryhackme/Root Me.md>)
-    * [Simple CTF](<writeup-ctfs/tryhackme/Simple CTF .md>)
-    * [Steel Mountain 15d360cb06dd80d7a441c8d15d8159ad](<writeup-ctfs/tryhackme/Steel Mountain.md>)
->>>>>>> e17948877da334d7875a5da5e76dc8378c510cea
