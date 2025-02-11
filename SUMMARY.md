@@ -61,6 +61,12 @@
   * [Curso Python](<apuntes/Curso Python/README.md>)
     * [Python Course](<apuntes/Curso Python/Python Course.md>)  
     * [Cheatsheets](<apuntes/Curso Python/CheatSheet/README.md>)
+      * [Bolean Operators](<apuntes/Curso Python/CheatSheet/Bolean Operators.md>)
+      * [Data Types](<apuntes/Curso Python/CheatSheet/Data Types.md>)
+      * [Functions and Conditionals](<apuntes/Curso Python/CheatSheet/Data Types.md>)
+      * [Loops](<apuntes/Curso Python/CheatSheet/Loops.md>)
+      * [Operations with Data Types](<apuntes/Curso Python/CheatSheet/Operations with Data Types.md>)
+      * [User Inputs](<apuntes/Curso Python/CheatSheet/User Inputs.md>)
     
 * [🛠️ Utils](utils/README.md)
   * [🐍 Python](utils/python/README.md)
