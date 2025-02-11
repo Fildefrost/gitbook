@@ -60,7 +60,7 @@
 * [📚 Apuntes](apuntes/README.md)
   * [Curso Python](<apuntes/Curso Python/README.md>)
     * [Python Course](<apuntes/Curso Python/Python Course.md>)  
-  * [Cheatsheets](<apuntes/Curso Python/CheatSheet/README.md>)
+    * [Cheatsheets](<apuntes/Curso Python/CheatSheet/README.md>)
     
 * [🛠️ Utils](utils/README.md)
   * [🐍 Python](utils/python/README.md)
