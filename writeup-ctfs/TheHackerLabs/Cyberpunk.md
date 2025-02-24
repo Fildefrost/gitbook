@@ -1,8 +1,8 @@
 ---
 tags:  #Cyberpunk #Web 
   - CTF
-estado: completado
-plataforma: "Comunidad de Hacking Ético"
+  - estado/completado
+plataforma: "[[Comunidad de Hacking Ético]]"
 dificultad: Fácil
 autor: TheHackerLabs
 ---
@@ -180,6 +180,10 @@ ftp> put cmd_Search.php
 ```
 
 ![image.png](<imagenes/Pasted image 20250223165848.png>)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8ab9f2d (obsidianOK)
 
 Vemos que accedermos correctamente. 
 Accedemos al fichero `/etc/passwd` y enumeramos usuarios:
