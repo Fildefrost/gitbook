@@ -178,10 +178,8 @@ Ya que haciendo fuzzing hemos visto que se muestra el mismo fichero que había a
 ftp anonymous@192.168.0.78
 ftp> put cmd_Search.php 
 ```
-![image.png](<imagenes/image 30.png>)
-![[imagenes/Pasted image 20250223165848.png]]
-<!-- GitBook -->
-![Pasted image 20250223165848.png](imagenes/Pasted image 20250223165848.png)
+
+![image.png](<imagenes/Pasted image 20250223165848.png>)
 
 Vemos que accedermos correctamente. 
 Accedemos al fichero `/etc/passwd` y enumeramos usuarios:
