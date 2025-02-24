@@ -4,7 +4,7 @@
 Por ahora este sitio se utiliza para subir las resoluciones de diferentes retos y maquinas vulnerables de distintas plataformas
 
 
-## 💻root#:&#x20;
+## 💻root#:>
 
 Aqui va mi descripción
 
@@ -21,7 +21,7 @@ info
 Mail:
 [duk3_@hotmail.com](mailto:duk3_@hotmail.com)
 
-Linkedin: 
+Linkedin:
 [Jordi Pueyo](www.linkedin.com/in/jordi-pueyo-cyber)
 
 
@@ -32,7 +32,7 @@ Github:
 
 ### 📌Otros
 
-Prueba de VSCode
+Prueba de VSC
 
 
 
