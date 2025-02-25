@@ -180,10 +180,6 @@ ftp> put cmd_Search.php
 ```
 
 ![image.png](<imagenes/Pasted image 20250223165848.png>)
-<<<<<<< HEAD
-=======
-
->>>>>>> 8ab9f2d (obsidianOK)
 
 Vemos que accedermos correctamente. 
 Accedemos al fichero `/etc/passwd` y enumeramos usuarios:
@@ -285,7 +281,7 @@ Se trata de un tipo de código llamado BrainFuck.
 Decodificamos el código con la web : 
 `https://www.dcode.fr/brainfuck-language`
 
-Nos da como resultado: `cyberpunk2077`
+Nos da como resultado: `c***********7`
 Comprobamos si ese es el password del usuario arasaka
 
 ```bash
@@ -351,7 +347,3 @@ bash -p
 ```
 
 
-# Bandera(s)
-
-> [!FLAG] `flag{B4nd3r4}`
-^bandera

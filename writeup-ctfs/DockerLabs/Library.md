@@ -30,7 +30,7 @@ Trobem :
 
 ![image.png](<imagenes/image 68.png>)
 
-Index.php : JIFGHDS87GYDFIGD
+Al codi font de Index.php : J***********D
 
 Trobem
 
@@ -41,17 +41,18 @@ Trobem un script que no sembla que serveixi per res
 Provem força bruta amb el possible login de la web index.php
 
 ```bash
-hydra -L /usr/share/wordlists/rockyou.txt -p JIFGHDS87GYDFIGD 172.17.0.2 ssh -vV
+hydra -L /usr/share/wordlists/rockyou.txt -p J**********D 172.17.0.2 ssh -vV
 ```
 
-Pass: carlos
+User: c****s
 
 ![image.png](<imagenes/image 69.png>)
 
 Conectem per ssh :
 
-Usuari: carlos
-Password: JIFGHDS87GYDFIGD
+Usuari: c****s
+
+Password: J**************D
 
 ![image.png](<imagenes/image 70.png>)
 

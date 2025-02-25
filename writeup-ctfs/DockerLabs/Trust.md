@@ -60,7 +60,7 @@ Obtenemos password :
 
 Usuario: mario
 
-Password: chocolateExplotación posterior
+Password: c*******e
 
 ### Escalada de privilegios
 

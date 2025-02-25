@@ -44,9 +44,8 @@ sudo wpscan --url [http://172.17.0.2/wordpress](http://172.17.0.2/wordpress) -P 
 
 ![image.png](<imagenes/image 43.png>)
 
-Password: love
+Password: l***
 
-mario/love
 
 Entrem al wp-admin amb les credencials
 entrem al editor de themes i creem un nou com a test.php amb la webshell:
@@ -60,7 +59,8 @@ Ens posen a l'espera i executem la webshell:
 Mire fitxer wp-config.php
 
 Database: username: wordpressuser
-Data base password: t9sH76gpQ82UFeZ3GXZS
+
+Data base password: t****************S
 
 Tractament TTY:
 

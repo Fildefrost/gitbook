@@ -60,8 +60,6 @@ sudo nc -lvnp 443
 
 ![image.png](<imagenes/image 3.png>)
 
-### Explotación posterior
-
 ### Escalada de privilegios
 
 Buscamos binarios SUID:

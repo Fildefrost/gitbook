@@ -202,9 +202,10 @@ Resultat:
 ![image.png](<imagenes/image 62.png>)
 
 Usuari: joe
-Password: chittychittybangbang
 
-Ara , dins de la maquina, canviem a usuari jo
+Password: chi************g
+
+Ara , dins de la maquina, canviem a usuari `joe`
 
 ```bash
 su joe

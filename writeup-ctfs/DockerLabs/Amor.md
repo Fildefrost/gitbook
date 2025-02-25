@@ -55,7 +55,8 @@ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt 
 Provem hydra amb els usuarios trobats:
 
 Juan : no troba pass
-Carlota: babygirl
+
+Carlota: b******l
 
 provem conexio ssh
 
@@ -76,7 +77,7 @@ Mirem contingut amb Exiftool, pero no trobem res
 Trobem un altre usuari:
 
 oscar
-ubuntu
+
 
 Provem hydra
 
@@ -101,18 +102,18 @@ ZXNsYWNhc2FkZXBpbnlwb24=
 Decodifiquem cadena:
 echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo
 
-ZXNsYWNhc2FkZXBpbnlwb24=:eslacasadepinypon
+ZXNsYWNhc2FkZXBpbnlwb24= es************pon
 
 Probem aquest password amb l'altre usuari
 
 Oscar
-eslacasadepinypon
+es************pon
 
 Entrem per ssh
 
 ```bash
 ssh [oscar@172.17.0.2](mailto:oscar@172.17.0.2)
-Pass: eslacasadepinypon
+Pass: es************pon
 ```
 
 Busquem fitxers
