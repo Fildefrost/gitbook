@@ -4,11 +4,17 @@
 
 ### Code
 
-- **Bash**
-- **Python**
+
+<details><summary>**Bash**</summary>
+
+</details>
+
+<details><summary>**Python**
+</summary>
+
     
     
-    > Strings
+    Strings
     > 
     
     ```python
