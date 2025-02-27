@@ -17,13 +17,15 @@ jobs:
         run: |
           echo "# Summary" > SUMMARY.md
           echo "" >> SUMMARY.md
-          find . -type f -name "*.md" ! -name "SUMMARY.md" | sort | while read -r file; do
+          find . -type f -name "*.md" ! -path "./node_modules/*" ! -name "SUMMARY.md" | sort | while read -r file; do
               title=$(head -n 1 "$file" | sed 's/# //')
               if [[ -z "$title" ]]; then
                   title=$(basename "$file" .md)
               fi
               path="${file#./}"
-              echo "- [$title]($path)" >> SUMMARY.md
+              depth=$(echo "$path" | awk -F"/" '{print NF-1}')
+              indent=$(printf '%*s' $depth '' | tr ' ' '  ')
+              echo "${indent}- [$title]($path)" >> SUMMARY.md
           done
 
       - name: Subir cambios si hay modificaciones
