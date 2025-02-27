@@ -15,23 +15,37 @@ jobs:
 
       - name: Generar nuevo SUMMARY.md
         run: |
-          echo "# Table of contents" > SUMMARY.md
-          echo "" >> SUMMARY.md
-          find . -type f -name "*.md" ! -path "./.github/*" ! -path "./.gitbook/*" ! -name "SUMMARY.md" | sort | while read -r file; do
-              title=$(head -n 1 "$file" | sed 's/# //')
-              if [[ -z "$title" ]]; then
-                  title=$(basename "$file" .md)
-              fi
-              path="${file#./}"
-              depth=$(echo "$path" | awk -F"/" '{print NF-1}')
-              indent=$(printf '%*s' $depth '' | tr ' ' '  ')
-              echo "${indent}- [$title]($path)" >> SUMMARY.md
-          done
+          #!/bin/bash
+
+          SUMMARY_FILE="SUMMARY.md"
+
+          echo "# Summary" > "$SUMMARY_FILE"
+          echo "" >> "$SUMMARY_FILE"
+
+          generate_summary() {
+              local dir="$1"
+              local indent="$2"
+
+              for entry in "$dir"/*; do
+                  if [[ -d "$entry" ]]; then
+                      folder_name=$(basename "$entry")
+                      echo "${indent}- **$folder_name/**" >> "$SUMMARY_FILE"
+                      generate_summary "$entry" "$indent  "
+                  elif [[ -f "$entry" && "$entry" == *.md && "$entry" != "./SUMMARY.md" ]]; then
+                      file_name=$(basename "$entry" .md)
+                      title=$(head -n 1 "$entry" | sed 's/# //')
+                      [[ -z "$title" ]] && title="$file_name"
+                      relative_path="${entry#./}"
+                      echo "${indent}- [$title]($relative_path)" >> "$SUMMARY_FILE"
+                  fi
+              done
+          }
+
+          generate_summary "." ""
 
       - name: Subir cambios si hay modificaciones
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add SUMMARY.md
-          git commit -m "Actualizar SUMMARY.md" || exit 0
-          git push
+          git diff --staged --quiet || (git commit -m "Actualizar SUMMARY.md" && git push)
