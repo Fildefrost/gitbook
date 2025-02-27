@@ -1,4 +1,4 @@
-## Document
+# Document
 
 ## **1. Información Inicial**
 
