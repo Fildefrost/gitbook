@@ -19,24 +19,33 @@ jobs:
 
           SUMMARY_FILE="SUMMARY.md"
 
-          echo "# Summary" > "$SUMMARY_FILE"
+          echo "# Table of contents" > "$SUMMARY_FILE"
           echo "" >> "$SUMMARY_FILE"
 
           generate_summary() {
               local dir="$1"
               local indent="$2"
 
-              for entry in "$dir"/*; do
-                  if [[ -d "$entry" ]]; then
-                      folder_name=$(basename "$entry")
-                      echo "${indent}- **$folder_name/**" >> "$SUMMARY_FILE"
-                      generate_summary "$entry" "$indent  "
-                  elif [[ -f "$entry" && "$entry" == *.md && "$entry" != "./SUMMARY.md" ]]; then
-                      file_name=$(basename "$entry" .md)
-                      title=$(head -n 1 "$entry" | sed 's/# //')
+              # Ordenar directorios y archivos alfabéticamente
+              for entry in $(ls -1 "$dir" | sort -f); do
+                  local full_path="$dir/$entry"
+
+                  if [[ -d "$full_path" ]]; then
+                      echo "${indent}* [$entry]($full_path/README.md)" >> "$SUMMARY_FILE"
+                      generate_summary "$full_path" "$indent  "
+                  elif [[ -f "$full_path" && "$entry" == *.md && "$entry" != "SUMMARY.md" ]]; then
+                      local file_name="${entry%.md}"
+                      local title=$(head -n 1 "$full_path" | sed 's/# //')
                       [[ -z "$title" ]] && title="$file_name"
-                      relative_path="${entry#./}"
-                      echo "${indent}- [$title]($relative_path)" >> "$SUMMARY_FILE"
+
+                      # Si el nombre tiene espacios, lo encierra en <>
+                      if [[ "$file_name" =~ \  ]]; then
+                          file_name="<$full_path>"
+                      else
+                          file_name="$full_path"
+                      fi
+
+                      echo "${indent}* [$title]($file_name)" >> "$SUMMARY_FILE"
                   fi
               done
           }
