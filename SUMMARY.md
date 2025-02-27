@@ -1,9 +1,9 @@
 # Summary
 
 - [README](README.md)
-- **apuntes/**
-  - **Curso Python/**
-    - **CheatSheet/**
+- **apuntes**
+  - **Curso Python**
+    - **CheatSheet**
       - [Bolean Operators](apuntes/Curso Python/CheatSheet/Bolean Operators.md)
       - [Data Types](apuntes/Curso Python/CheatSheet/Data Types.md)
       - [Functions and Conditionals](apuntes/Curso Python/CheatSheet/Functions and Conditionals.md)
@@ -11,24 +11,24 @@
       - [Operations with Data Types](apuntes/Curso Python/CheatSheet/Operations with Data Types.md)
       - [Cheatsheet Python Course](apuntes/Curso Python/CheatSheet/README.md)
       - [User Inputs](apuntes/Curso Python/CheatSheet/User Inputs.md)
-    - **Documents/**
+    - **Documents**
     - [Python Course](apuntes/Curso Python/Python Course.md)
     - [Python Course](apuntes/Curso Python/README.md)
-  - **Mi eJPTv2 /**
-    - **Web Pentesting /**
+  - **Mi eJPTv2**
+    - **Web Pentesting**
     - [Web Pentesting](apuntes/Mi eJPTv2 /Web Pentesting .md)
   - [Mi eJPTv2](apuntes/Mi eJPTv2 .md)
   - [📚 Apuntes](apuntes/README.md)
-- **utils/**
+- **utils**
   - [🛠️ Utils](utils/README.md)
-  - **python/**
+  - **python**
     - [🐍 Python](utils/python/README.md)
-- **writeup-ctfs/**
-  - **BunkerLabs/**
+- **writeup-ctfs**
+  - **BunkerLabs**
     - [#**1. Información Inicial**](writeup-ctfs/BunkerLabs/Document.md)
     - [BunkerLabs](writeup-ctfs/BunkerLabs/README.md)
-    - **imagenes/**
-  - **DockerLabs/**
+    - **imagenes**
+  - **DockerLabs**
     - [Agua de Mayo](writeup-ctfs/DockerLabs/Agua de Mayo.md)
     - [Amor](writeup-ctfs/DockerLabs/Amor.md)
     - [Chocolate](writeup-ctfs/DockerLabs/Chocolate.md)
@@ -41,8 +41,8 @@
     - [Upload](writeup-ctfs/DockerLabs/Upload.md)
     - [Walking CMS](writeup-ctfs/DockerLabs/Walking CMS.md)
     - [WhereIsMyShell](writeup-ctfs/DockerLabs/WhereIsMyShell.md)
-    - **imagenes/**
-  - **HackTheBox/**
+    - **imagenes**
+  - **HackTheBox**
     - [Archetype](writeup-ctfs/HackTheBox/Archetype.md)
     - [Base](writeup-ctfs/HackTheBox/Base.md)
     - [Bike](writeup-ctfs/HackTheBox/Bike.md)
@@ -73,21 +73,21 @@
     - [Unified](writeup-ctfs/HackTheBox/Unified.md)
     - [Vaccine](writeup-ctfs/HackTheBox/Vaccine.md)
     - [Validation](writeup-ctfs/HackTheBox/Validation.md)
-    - **imagenes/**
-  - **Overthewire/**
+    - **imagenes**
+  - **Overthewire**
     - [⌨️ OverTheWire](writeup-ctfs/Overthewire/README.md)
     - [⚡ Bandit](writeup-ctfs/Overthewire/bandit.md)
     - [⚡ Natas](writeup-ctfs/Overthewire/natas.md)
-  - **Portswigger/**
+  - **Portswigger**
     - [PortSwigger](writeup-ctfs/Portswigger/README.md)
-  - **Prueba/**
-    - **imagenes/**
+  - **Prueba**
+    - **imagenes**
     - [esto es una prueba para ver si funciona las imagnes directamente](writeup-ctfs/Prueba/test.md)
   - [🕹️ writeup-ctfs](writeup-ctfs/README.md)
-  - **TheHackerLabs/**
+  - **TheHackerLabs**
     - [---](writeup-ctfs/TheHackerLabs/Cyberpunk.md)
     - [DockerLabs](writeup-ctfs/TheHackerLabs/README.md)
-  - **Tryhackme/**
+  - **Tryhackme**
     - [Basic Pentesting](writeup-ctfs/Tryhackme/Basic Pentesting.md)
     - [Capstone (Privesc)](writeup-ctfs/Tryhackme/Capstone (Privesc) .md)
     - [ColdBox](writeup-ctfs/Tryhackme/ColdBox.md)
@@ -97,4 +97,4 @@
     - [Root Me](writeup-ctfs/Tryhackme/Root Me.md)
     - [Simple CTF](writeup-ctfs/Tryhackme/Simple CTF .md)
     - [Steel Mountain](writeup-ctfs/Tryhackme/Steel Mountain.md)
-    - **imagenes/**
+    - **imagenes**
