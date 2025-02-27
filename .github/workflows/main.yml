@@ -25,27 +25,19 @@ jobs:
               local dir="$1"
               local indent="$2"
 
-              # Obtener lista de archivos y directorios ordenados
-              for entry in $(find "$dir" -mindepth 1 -maxdepth 1 \( -type d -o -type f -name "*.md" \) | sort -f); do
-                  local name=$(basename "$entry")
-                  
-                  if [[ -d "$entry" ]]; then
-                      echo "${indent}* **$name/**" >> "$SUMMARY_FILE"
-                      generate_summary "$entry" "$indent  "
-                  elif [[ -f "$entry" && "$name" != "SUMMARY.md" ]]; then
-                      local title=$(head -n 1 "$entry" | sed 's/# //')
-                      [[ -z "$title" ]] && title="${name%.md}"
-                      relative_path="${entry#./}"
-                      echo "${indent}* [$title]($relative_path)" >> "$SUMMARY_FILE"
-                  fi
+              # Listar carpetas primero y archivos después
+              local folders=($(find "$dir" -mindepth 1 -maxdepth 1 -type d | sort -f))
+              local files=($(find "$dir" -mindepth 1 -maxdepth 1 -type f -name "*.md" ! -name "SUMMARY.md" | sort -f))
+
+              # Agregar carpetas primero
+              for folder in "${folders[@]}"; do
+                  folder_name=$(basename "$folder")
+                  echo "${indent}* **$folder_name/**" >> "$SUMMARY_FILE"
+                  generate_summary "$folder" "$indent  "
               done
-          }
 
-          generate_summary "." ""
-
-      - name: Subir cambios si hay modificaciones
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add SUMMARY.md
-          git diff --staged --quiet || (git commit -m "Actualizar SUMMARY.md" && git push)
+              # Agregar archivos Markdown después
+              for file in "${files[@]}"; do
+                  file_name=$(basename "$file" .md)
+                  title=$(head -n 1 "$file" | sed 's/# //')
+                  [[ -z "$title" ]] && title="$file_name"
