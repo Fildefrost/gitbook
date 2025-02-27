@@ -18,34 +18,25 @@ jobs:
           #!/bin/bash
 
           SUMMARY_FILE="SUMMARY.md"
-
-          echo "# Table of contents" > "$SUMMARY_FILE"
+          echo "# Summary" > "$SUMMARY_FILE"
           echo "" >> "$SUMMARY_FILE"
 
           generate_summary() {
               local dir="$1"
               local indent="$2"
 
-              # Ordenar directorios y archivos alfabéticamente
-              for entry in $(ls -1 "$dir" | sort -f); do
-                  local full_path="$dir/$entry"
-
-                  if [[ -d "$full_path" ]]; then
-                      echo "${indent}* [$entry]($full_path/README.md)" >> "$SUMMARY_FILE"
-                      generate_summary "$full_path" "$indent  "
-                  elif [[ -f "$full_path" && "$entry" == *.md && "$entry" != "SUMMARY.md" ]]; then
-                      local file_name="${entry%.md}"
-                      local title=$(head -n 1 "$full_path" | sed 's/# //')
-                      [[ -z "$title" ]] && title="$file_name"
-
-                      # Si el nombre tiene espacios, lo encierra en <>
-                      if [[ "$file_name" =~ \  ]]; then
-                          file_name="<$full_path>"
-                      else
-                          file_name="$full_path"
-                      fi
-
-                      echo "${indent}* [$title]($file_name)" >> "$SUMMARY_FILE"
+              # Obtener lista de archivos y directorios ordenados
+              for entry in $(find "$dir" -mindepth 1 -maxdepth 1 \( -type d -o -type f -name "*.md" \) | sort -f); do
+                  local name=$(basename "$entry")
+                  
+                  if [[ -d "$entry" ]]; then
+                      echo "${indent}* **$name/**" >> "$SUMMARY_FILE"
+                      generate_summary "$entry" "$indent  "
+                  elif [[ -f "$entry" && "$name" != "SUMMARY.md" ]]; then
+                      local title=$(head -n 1 "$entry" | sed 's/# //')
+                      [[ -z "$title" ]] && title="${name%.md}"
+                      relative_path="${entry#./}"
+                      echo "${indent}* [$title]($relative_path)" >> "$SUMMARY_FILE"
                   fi
               done
           }
