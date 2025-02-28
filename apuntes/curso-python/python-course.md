@@ -1,21 +1,49 @@
+# Python Course
 
-Tips
+* ### **Bash**
+* ### **Python**
 
-- Run `Command+K+S` to open keyboard shortcuts.
-- Then type `Python: Run Python File in Terminal`. Select it.
-
-
-
-
- > **STRINGS**
+> Strings
 
 ```python
 print("String_input")
+
+# Para variables
+
+nombre= "Jordi"
+print(f"Hola, me llamo {nombre}")
+
+Output: Hola me llamo Jordi
 ```
-Entradas de text, siempre en comillas
 
+Entradas de texto, siempre en comillas
 
-> **TYPE**
+> Formats
+
+```python
+# Newline Character
+
+print("\\n")
+
+# backslash
+
+print("\\\\")
+
+# Comilla simple
+
+print("\\'")
+
+# Tabulador
+
+print("\\t")
+
+# Backspace
+
+print("\\b")
+
+```
+
+> Tipos
 
 Defineix el tipus de dada
 
@@ -23,41 +51,41 @@ Defineix el tipus de dada
 x = 10
 print (type(x))
 Output = <class 'ini'>
+
 ```
 
->**NUMBER DATA TYPES**
+> Tipos de datos
 
-integer = Numeros enteros
+```python
+**Integer** = Numeros enteros > x = 4
+**Float** = Numeros decimales > x = 2.5
+```
 
-x = 4
-
-Float = Numeros decimales
-
-x = 2.5
-
->**LISTS**
+> Listas
 
 ```python
 example = [1,2,3]
 example = [1,"prova", 10]
+
 ```
 
-no mutable: 
+no mutable:
+
 ```python
 example.append (4) > Attributte error
+
 ```
 
-
-> **SORT LIST**
+> Ordenar listas
 
 ```python
 example = list{range(0,11)}
 print (example)
 Output: [0,1,2,3,4,5,6,7,8,9,10]
-```
- 
 
->**TUPLAS**
+```
+
+> Tuplas
 
 ```python
 example = (1,2,3)
@@ -66,30 +94,35 @@ example1 = (("a","b","c") , (1,23))
 mutable:
 
 example.append (4) > 1,2,3,4
+
 ```
 
->**BUSCAR FUNCIONES**
+> Buscar funciones
 
 ```python
 dir(__builtins__)
 dir(list)
 dir(str)
 dir(dict)
+
 ```
 
->**AYUDA FUNCIONES
+> Ayuda funciones
 
 ```python
 help (function)
+
 ```
 
->**DICCIONARIOS**
+> Diccionarios
 
 ```python
 example = {'input1':value, 'input2':value, 'input3':value}
+
 ```
 
- Ex:
+Ex:
+
 ```python
 search_engines_users = {"google": 1000, "bing": 127000000, "duck duck go":12000000}
 
@@ -98,27 +131,28 @@ search_engines_users = {"google": 1000, "bing": 127000000, "duck duck go":120000
 
 ```
 
->**APPEND FUNCTION**
+> Añadir funciones
 
 ```python
 example = [1,2,3,4]
 plus = [5,6]
 example.append (plus)
 Output: [1,2,3,4,[5,6]]
+
 ```
 
-> **EXTEND FUNCTION
+> Extender funciones
 
-```python
-example = [1,2,3,4]
+<pre class="language-python"><code class="lang-python">example = [1,2,3,4]
 plus = [5,6]
 example.extend (plus)
 Output: [1,2,3,4,5,6]
-```
+<strong>
+</strong></code></pre>
 
-##### INDEX
+#### INDEX
 
-> **INDEX FUNCTION**
+> Funciones de indice
 
 ```python
 example = ['a','b','c','d']
@@ -132,7 +166,7 @@ Output = ['b','c','d']
 
 ```
 
-> **INDEX FUNCTION CHARACTER**
+> Funciones de indice de numero
 
 ```python
 example = ['hola',4,5,6]
@@ -144,9 +178,10 @@ Output: 'l'
 
 print example [1]
 Output: 4
+
 ```
 
-  Para diccionarios
+Para diccionarios
 
 ```python
 Numbers:
@@ -160,54 +195,58 @@ Strings:
 example = {"mati": "Sol", "tarda": "nuvol", "nit": "pluja"}
 print ("tarda")
 Output = 'nuvol'
+
 ```
- 
+
 #### CONVERSION
 
->**From tuple to list:**
- 
-```PYTHON
+> De tupla a lista
+
+```python
 1. >>> cool_tuple = (1, 2, 3)
 2. >>> cool_list = list(cool_tuple)
 3. >>> cool_list
 4. [1, 2, 3]
-```
-  
->**From list to tuple:**
 
-```PYTHON
+```
+
+> De lista a tupla
+
+```python
 1. >>> cool_list = [1, 2, 3]
 2. >>> cool_tuple = tuple(cool_list)
 3. >>> cool_tuple
 4. (1, 2, 3)
-```
-  
->**From string to list:**
 
-```PYTHON
+```
+
+> De string a lista
+
+```python
 1. >>> cool_string = "Hello"
 2. >>> cool_list = list(cool_string)
 3. >>> cool_list
 4. ['H', 'e', 'l', 'l', 'o']
+
 ```
-  
->**From list to string:**
+
+> De lista a string
 
 ```python
 1. >>> cool_list = ['H', 'e', 'l', 'l', 'o']
 2. >>> cool_string = str.join("", cool_list)
 3. >>> cool_string
 4. 'Hello'
-```
-####
 
->**FUNCTION DEFINITION
+```
+
+> Definicion de funciones
 
 ```python
-def nombre_funcion(parametro1, parametro2, ...): 
+def nombre_funcion(parametro1, parametro2, ...):
 
-		# Cuerpo de la función 
-		# Código que ejecutará la función 
+		# Cuerpo de la función
+		# Código que ejecutará la función
 
 	return valor # Opcional, para devolver un resultado
 
@@ -215,11 +254,13 @@ def nombre_funcion(parametro1, parametro2, ...):
 'nombre_funcion:'# El nombre que le das a la función.
 'parametros:'# Valores que le puedes pasar a la función para que los use'
 'return:'# (Opcional) La función puede devolver un valor utilizando `return`. Si no usas `return`, la función devuelve `None` por defecto.'
+
 ```
+
 ```python
 Ex.1
 
-def saludar(nombre="Amigo"): 
+def saludar(nombre="Amigo"):
 	print(f"Hola, {nombre}!")
 
 saludar() # Salida: Hola, Amigo!
@@ -227,7 +268,7 @@ saludar("Ana") # Salida: Hola, Ana!
 
 ```
 
->**User Input
+> User Input
 
 ```python
 #Opció 1
@@ -235,7 +276,7 @@ saludar("Ana") # Salida: Hola, Ana!
 user_input = input("Posa el teu nom")
 missatge = "Hola %s" % user_input
 print (missatge)
-# Posa en el %s el valor de user inmpu 
+# Posa en el %s el valor de user inmpu
 
 # Per diferents variables:
 nom = input ("Posa el teu nom:")
@@ -244,7 +285,6 @@ message = "Hola %s %s" % (nom,cognom)
 print(message)
 
 ------------------------------------------------------
-
 
 # Opció 2
 user_input = input("Posa el teu nom")
@@ -264,9 +304,12 @@ message = f"Hola {nom}{cognom}"
 
 4. message = "Your name is {}. Your surname is {}".format(name, surname)
 5. print(message)
+
 ```
 
->**Bucle FOR
+#### **BUCLES**
+
+> Bucle FOR
 
 ```python
 values = [1,2,3,4,5]
@@ -313,6 +356,7 @@ Output: Pol ,Joan, Laia
 # Para mostrar las notas, usamos el valor "values"
 for notas in notas_estudiantes.values():
 Output: 4,5,8
+
 ```
 
 ```python
@@ -331,9 +375,10 @@ phone_numbers = {"John": "+37682929928", "Marry": "+423998200919"}
 
 for key, value in phone_numbers.items():
 	print(f"{key} has as phone number {value}")
+
 ```
 
->**Bucle WHILE
+> Bucle WHILE
 
 ```python
 a= 3
@@ -357,9 +402,6 @@ Output:
 
 username = ''
 
-while username != "marco": 
+while username != "marco":
 	username = input ("Enter username:")
-
-
-
 ```
