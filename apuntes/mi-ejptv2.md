@@ -1,8 +1,14 @@
 ---
-description: Documentación y Cheatsheet para el eJPT
+description: Documentación y notas para pentesting
 ---
 
-# ⚒️ Copy of Mi eJPT
+# ⚒️ Mi eJPT
+
+## [Basics](mi-ejptv2.md#basics-1)
+
+## [Utils](mi-ejptv2.md#utils-1)
+
+
 
 ## **BASICS**
 
