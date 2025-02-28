@@ -1,111 +1,90 @@
 # Mi eJPTv2
 
-## 
+## Code
 
-### Code
+### **Bash**
+ 
+### **Python**
+    
+> Strings
+```python
+print("String_input")
+```
+   
+     
+> Para variables
+```python
+nombre= "Jordi"
+print(f"Hola, me llamo {nombre}")
+    
+Output: Hola me llamo Jordi
+```
+    
+Entradas de texto, siempre en comillas
+    
+> Formats
 
+```python
 
-<details><summary>**Bash**</summary>
-
-</details>
-
-<details><summary>**Python**
-</summary>
-
+>Newline Character
     
+ print("\n")
     
-    Strings
-    > 
+ # backslash
     
-    ```python
-    print("String_input")
+ print("\\")
     
-    # Para variables
+ # Comilla simple
     
-    nombre= "Jordi"
-    print(f"Hola, me llamo {nombre}")
+ print("\'")
     
-    Output: Hola me llamo Jordi
-    ```
+ # Tabulador
     
-    Entradas de texto, siempre en comillas
+ print("\t")
     
-    > Formats
-    > 
+ # Backspace
     
-    ```python
-    # Newline Character
+ print("\b")
     
-    print("\n")
+ ```
     
-    # backslash
-    
-    print("\\")
-    
-    # Comilla simple
-    
-    print("\'")
-    
-    # Tabulador
-    
-    print("\t")
-    
-    # Backspace
-    
-    print("\b")
-    
-    ```
-    
-    > Tipos
-    > 
-    
-    Defineix el tipus de dada
-    
-    ```python
-    x = 10
+ > Tipos
+  
+ Defineix el tipus de dada
+ ```python
+ x = 10
     print (type(x))
     Output = <class 'ini'>
     
-    ```
+ ```
     
-    > Tipos de datos
-    > 
-    
-    ```python
+ > Tipos de datos
+  
+ ```python
     **Integer** = Numeros enteros > x = 4
     **Float** = Numeros decimales > x = 2.5
-    ```
+ ```
     
-    > Listas
-    > 
-    
-    ```python
+ > Listas
+ ```python
     example = [1,2,3]
     example = [1,"prova", 10]
-    
-    ```
-    
-    no mutable:
-    
-    ```python
+ ```
+ 
+ no mutable:
+ ```python
     example.append (4) > Attributte error
-    
-    ```
-    
-    > Ordenar listas
-    > 
-    
-    ```python
+ ```
+ 
+ > Ordenar listas
+ 
+ ```python
     example = list{range(0,11)}
     print (example)
     Output: [0,1,2,3,4,5,6,7,8,9,10]
-    
-    ```
-    
-    > Tuplas
-    > 
-    
-    ```python
+ ```
+ > Tuplas
+ ```python
     example = (1,2,3)
     example1 = (("a","b","c") , (1,23))
     
@@ -113,68 +92,48 @@
     
     example.append (4) > 1,2,3,4
     
-    ```
-    
-    > Buscar funciones
-    > 
-    
-    ```python
+ ```
+ > Buscar funciones
+ ```python
     dir(__builtins__)
     dir(list)
     dir(str)
     dir(dict)
+ ```
     
-    ```
-    
-    > yuda funciones
-    > 
-    
-    ```python
+ > Ayuda funciones
+ ```python
     help (function)
-    
-    ```
-    
-    > Diccionarios
-    > 
-    
-    ```python
+ ```
+ 
+ > Diccionarios
+ ```python
     example = {'input1':value, 'input2':value, 'input3':value}
-    
-    ```
-    
-    Ex:
-    
-    ```python
+ ```
+ Ex:
+ ```python
     search_engines_users = {"google": 1000, "bing": 127000000, "duck duck go":12000000}
     
     'google':Key
     '1000': value key
+ ```
     
-    ```
-    
-    > Añadir funciones
-    > 
-    
-    ```python
+> Añadir funciones
+```python
     example = [1,2,3,4]
     plus = [5,6]
     example.append (plus)
     Output: [1,2,3,4,[5,6]]
-    
-    ```
-    
-    > Extender funciones
-    > 
-    
-    ```python
+```
+
+> Extender funciones
+```python
     example = [1,2,3,4]
     plus = [5,6]
     example.extend (plus)
     Output: [1,2,3,4,5,6]
-    
-    ```
-    
-    ### INDEX
+```
+  ### INDEX
     
     > Funciones de indice
     > 
@@ -443,7 +402,7 @@
 
 ### Basics
 
-- **Curl & Wget**
+**Curl & Wget**
     
     
     - CURL
