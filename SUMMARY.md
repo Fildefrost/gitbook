@@ -67,5 +67,6 @@
       * [Loops](<apuntes/Curso Python/CheatSheet/Loops.md>)
       * [Operations with Data Types](<apuntes/Curso Python/CheatSheet/Operations with Data Types.md>)
       * [User Inputs](<apuntes/Curso Python/CheatSheet/User Inputs.md>)
+  * [Mi eJPT](<apuntes/Mi eJPTv2.md>) 
 * [🛠️ Utils](utils/README.md)
   * [🐍 Python](utils/python/README.md)
