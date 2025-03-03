@@ -370,69 +370,69 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 #### **Gestor de contenido**
   *   **WordPRess**
 
-    **Enumeración general WordPress**
+  **Enumeración general WordPress**
 
 
-    Enumerar usuarios
+  Enumerar usuarios
 
-    ```bash
+  ```bash
     wpscan --url <http://exmaple.com> -e u
     -u : username
     -p: password
-    ```
+  ```
 
-    Fuerza burta usuario
+  Fuerza burta usuario
 
-    ```bash
-    wpscan --url <http://exmaple.com> -U usuario -P /usr/share/wordlists/rockyou.txt
-    ```
+  ```bash
+  wpscan --url <http://exmaple.com> -U usuario -P /usr/share/wordlists/rockyou.txt
+  ```
 
-    Plugin scan
+  Plugin scan
 
-    ```bash
-    wpscan --uel <http://example.con> -e u,p --api-toke='API'
-    # La API la sacanos del perfil de nuestra cuenta de Webscan
+  ```bash
+  wpscan --uel <http://example.con> -e u,p --api-toke='API'
+  # La API la sacanos del perfil de nuestra cuenta de Webscan
 
-    wpscan --uel <http://example.con> -e u,p --api-toke='API' --plugibs.detection aggressive -L 50
+  wpscan --uel <http://example.con> -e u,p --api-toke='API' --plugibs.detection aggressive -L 50
 
-    # Modo deteccion agresivo con 50 hilos
-    ```
+  # Modo deteccion agresivo con 50 hilos
+  ```
 
-    Fuzzear Plugins WordPress
+  Fuzzear Plugins WordPress
 
-    ```bash
-    git clone <https://github.com/Perfectdotexe/WordPress-Plugins-List.git>
-    plugins.txt
+  ```bash
+  git clone <https://github.com/Perfectdotexe/WordPress-Plugins-List.git>
+  plugins.txt
 
-    Probar el listado de plugins en el directorio mediante fuzzing web
+  Probar el listado de plugins en el directorio mediante fuzzing web
 
-    gobuster dir -u '<http://example.com/wp-content/plugins>' -w plugins.txt
-    ```
+  gobuster dir -u '<http://example.com/wp-content/plugins>' -w plugins.txt
+  ```
 
-    ```bash
-     wpscan --url <http://example> -P /usr/share/wordlists/rockyou.txt
+  ```bash
+  wpscan --url <http://example> -P /usr/share/wordlists/rockyou.txt
 
-    # Ignore TLS check (--disable-tls-checks)
-    wpscan --url <https://example.com> -P wordlist.txt --disable-tls-checks
+  # Ignore TLS check (--disable-tls-checks)
+  wpscan --url <https://example.com> -P wordlist.txt --disable-tls-checks
 
-    # -U : Specifify username
-    # --rua: random user agent
-    # --http-auth username:password
-    # -e: enumerate
-    #  ap: All plugins
-    #  at: All themes
-    #  tt: Timthumbs
-    #  cb: Config backups
-    #  dbe: Db exports
-    #  u: User IDs range
-    #  m: Media IDs range
+  # -U : Specifify username
+  # --rua: random user agent
+  # --http-auth username:password
+  # -e: enumerate
+  #  ap: All plugins
+  #  at: All themes
+  #  tt: Timthumbs
+  #  cb: Config backups
+  #  dbe: Db exports
+  #  u: User IDs range
+  #  m: Media IDs range
 
-    wpscan --rua -e ap,at,tt,cb,dbe,u,m --url <https://example.com> -U username -P /usr/share/wordlists/rockyou.txt
-    ```
+  wpscan --rua -e ap,at,tt,cb,dbe,u,m --url <https://example.com> -U username -P /usr/share/wordlists/rockyou.txt
+  ```
 
-    **Common directories**
+  **Common directories**
 
-    ```bash
+  ```bash
     /author/admin/
     /index.php/author/admin/
     /license.txt
@@ -461,11 +461,11 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
     # Private/Draft Posts (WordPress <= 5.2.3) 
     /?static=1
-    ```
+  ```
 
-    Parametro busqueda WordPress
+  Parametro busqueda WordPress
 
-    ```bash
+  ```bash
     # Todos los WordPress presnetan un parametro de busqueda 
     <http://example.es/course/>
 
@@ -476,15 +476,13 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     # Si buscamos cadenas huerfanas podemos acceder a recursos que normalmente
     # no podriamos.
 
-    ```
+  ```
 
 
 
   *   **MongoDB**
 
-
-
-    ```bash
+  ```bash
     #Conexión remotoa BD
 
     mongo <target-IP>:<port>
@@ -494,21 +492,19 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     show collections # Muestra contenido de la bd (ex:admin,config)
     db.admin.find() # Muestra contenido de la tabla
     db.admin.find().pretty()# Muestra el contenido de la tabla en formato leible
-    ```
+  ```
 
   *   **Drupal**
 
-
-
     Drupa IP
 
-    ```bash
+  ```bash
     whatweb <http://example.com>
-    ```
+  ```
 
     Metasploit
 
-    ```bash
+  ```bash
     Drupa <=8 vulnerable
 
     msf> search drupal 8
@@ -519,14 +515,9 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     /var/www/html/sites/default/settings.php
 
     Buscar credenciales en el fichero de configuración
-    ```
+  ```
     
-  *   **Magento**
-
-
-
 #### **SQL Map**
-
 
 
     Eunumerar BD
