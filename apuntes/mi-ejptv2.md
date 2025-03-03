@@ -369,7 +369,9 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
 #### **Gestor de contenido: WordPress**
 
+
     **Enumeración general WordPress**
+
 
     Enumerar usuarios
 
