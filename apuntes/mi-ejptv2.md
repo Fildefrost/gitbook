@@ -367,7 +367,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
   * Bitbucket
   * Gitea
 
-#### **Gestor de contenido: WordPress**
+#### **Gestor de contenido:WordPress**
 
 
     **Enumeración general WordPress**
@@ -478,7 +478,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
     ```
 
-#### **Gestor de contenido: Mongo DB**
+#### **Gestor de contenido:Mongo DB**
 
     ```bash
     #Conexión remotoa BD
