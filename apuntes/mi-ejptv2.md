@@ -478,7 +478,11 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
     ```
 
+
+
 #### **Gestor de contenido:Mongo DB**
+
+
 
     ```bash
     #Conexión remotoa BD
@@ -493,6 +497,8 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     ```
 
 #### **Gestor de contenido: Dupal**
+
+
 
     Drupa IP
 
@@ -517,7 +523,11 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
 #### **Gestor de contenido: Magento**
 
+
+
 #### **SQL Map**
+
+
 
     Eunumerar BD
 
