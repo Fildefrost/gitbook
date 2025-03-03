@@ -367,8 +367,8 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
   * Bitbucket
   * Gitea
 
-#### **Gestor de contenido:WordPress**
-
+#### **Gestor de contenido**
+  *   **WordPRess**
 
     **Enumeración general WordPress**
 
@@ -480,7 +480,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
 
 
-#### **Gestor de contenido:Mongo DB**
+  *   **MongoDB**
 
 
 
@@ -496,7 +496,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     db.admin.find().pretty()# Muestra el contenido de la tabla en formato leible
     ```
 
-#### **Gestor de contenido: Dupal**
+  *   **Drupal**
 
 
 
@@ -520,8 +520,8 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
     Buscar credenciales en el fichero de configuración
     ```
-
-#### **Gestor de contenido: Magento**
+    
+  *   **Magento**
 
 
 
