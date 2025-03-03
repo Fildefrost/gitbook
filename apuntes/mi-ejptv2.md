@@ -348,7 +348,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
 
 
-* **Pentesting CI/CD**
+#### **Pentesting CI/CD**
   *   **Jenkins Security**
 
       Enumeration
@@ -366,9 +366,8 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
   * Gitlab
   * Bitbucket
   * Gitea
-*   **Gestores de Contenido**
 
-    #### WordPress
+#### **Gestor de contenido: WordPress**
 
     **Enumeración general WordPress**
 
@@ -477,7 +476,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
 
     ```
 
-    #### Mongo
+#### **Gestor de contenido: Mongo DB**
 
     ```bash
     #Conexión remotoa BD
@@ -491,7 +490,7 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     db.admin.find().pretty()# Muestra el contenido de la tabla en formato leible
     ```
 
-    #### Drupal
+#### **Gestor de contenido: Dupal**
 
     Drupa IP
 
@@ -514,8 +513,9 @@ scp username@hostname:/path/to/remote/file /path/to/local/file
     Buscar credenciales en el fichero de configuración
     ```
 
-    #### Magento
-*   **SQLMap**
+#### **Gestor de contenido: Magento**
+
+#### **SQL Map**
 
     Eunumerar BD
 
